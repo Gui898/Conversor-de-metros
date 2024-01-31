@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algo.css">
+    <title>Conversor de Unidades</title>
+</head>
+<body>
+    
+    <div class="conversor">
+    <div class="titulo">Conversor de Unidades</div>
+        <div class="input">
+            <input type="number" id="numero">
+            <div>m</div>
+        </div>
+
+        <div class="middle">Para</div>
+
+        <div class="unidades">
+            <select id="unidades">
+            <option value="km_-3" value2="km">km</option>
+            <option value="hm_-2" value2="hm">hm</option>
+            <option value="dam_-1" value2="">dam</option>
+            <option value="dm_1" value2="">dm</option>
+            <option value="cm_2" value2="">cm</option>
+            <option value="mm_3" value2="">mm</option>
+            </select>
+        </div>
+
+        <button class="but" onclick="calcular()">Calcular</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="algo.js"></script>
+</body>
+</html>
